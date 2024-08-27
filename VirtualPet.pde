@@ -11,10 +11,11 @@ void draw(){
   noStroke();
   fill(20,200,255);
   ellipse(150,80,30,30);
+  triangle(123,70,177,70,150,55);
   fill(255,255,255);
   ellipse(124,75,45,75);
   ellipse(177,75,45,75);
-  ellipse(150,109,67,30);
+  ellipse(150,109,67,30); 
   
   //piplupLefteye
   stroke(1);
@@ -32,5 +33,6 @@ void draw(){
   //piplupBeak
   fill(225,210,20);
   ellipse(150,100,15,15);
+  line(142,100,157,100);
   
 }
